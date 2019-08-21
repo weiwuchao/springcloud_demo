@@ -1,0 +1,20 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: configserver
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/weiwuchao/springcloud_demo.git #配置git仓库地址
+          searchPaths: config_repo #配置文件所在仓库路径
+          username: weiwuchao #访问git仓库的用户名
+          password: 5475311wwc #访问git仓库的用户密码
+      label: master #配置仓库的分支
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/

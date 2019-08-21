@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="springcloud_configclient" />
+        <module name="springcloud_configserver" />
+        <module name="springcloud_eurakeserver" />
+        <module name="springcloud_eurekaclient" />
+        <module name="springcloud_eurekaclient_8121" />
+        <module name="springcloud_eurekaserver_8762" />
+        <module name="springcloud_hystrix" />
+        <module name="springcloud_openfeign" />
+        <module name="springcloud_zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springcloud_eurakeserver (1)" target="1.8" />
+      <module name="springcloud_test" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
