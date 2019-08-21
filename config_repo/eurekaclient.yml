@@ -1,0 +1,10 @@
+server:
+  port: 8130
+spring:
+  application:
+    name: eurekaclient
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh,health,info
